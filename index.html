@@ -1,152 +1,183 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<title>John Platz Home Inspections</title>
 	<meta name="description" content="John Platz Home Inspections">
 
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/site.css">
-	<link href='http://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans:400,300' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/site2.css">
+	<link href='http://fonts.googleapis.com/css?family=Montserrat:700|Varela+Round' rel='stylesheet' type='text/css'>
 
 	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
-
-    <script>
-	  	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	  	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	  	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	  	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-		ga('create', 'UA-15551615-2', 'johnplatz.com');
-  		ga('send', 'pageview');
-
-	</script>
 </head>
-<body>
-	<div class="first">
+<body data-spy="scroll" data-target=".navbar">
+	<nav class="navbar navbar-default navbar-fixed-top jp-navbar" role="navigation">
+	  <div class="container">
+	    
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand logo" href="#home">
+	      	<span class="glyphicon glyphicon-home"></span>
+	      	<strong>John Platz</strong><br/> 
+			<small>Home Inspection Services</small>
+	      </a>
+	    </div>
+
+	    <div class="collapse navbar-collapse" id="navbar-collapse">
+	      	<ul class="nav navbar-nav navbar-right">
+		        <li><a href="#overview">Overview</a></li>
+		        <li><a href="#report">Report</a></li>
+		        <li><a href="#services">Services</a></li>
+		        <li><a href="#about">About Me</a></li>
+		        <li><a href="#contact">Contact</a></li>
+	      	</ul>
+	      	<!--<ul class="nav navbar-nav navbar-right">
+	    		<li><a href="#"><span class="glyphicon glyphicon-earphone"></span> (814) 866-8636</a></li>
+	    		<li><a href="mailto:johnplatz@gmail.com" title="Email me"><span class="glyphicon glyphicon-envelope"></span> Email me</a></li>
+    		</ul>-->
+	    </div>
+
+	  </div>
+	</nav>
+
+	<div class="heading house" id="home">
 		<div class="container">
-			<div class="row john">
-				<div class="row header">
-					<div class="col-md-12">
-						<div class="logo">
-							<span class="glyphicon glyphicon-home"></span>
-							<strong>John Platz</strong><br/> 
-							<small>Home Inspection Services</small>
-						</div>
-						<div class="text-right">
-					  		<span class="contact">
-					  			<span class="glyphicon glyphicon-earphone"></span> (814) 866-8636
-					  		</span>
-					  		<span class="contact">
-					  			<a href="mailto:johnplatz@gmail.com" title="Email me">
-					  				<span class="glyphicon glyphicon-envelope"></span>
-				  				</a>
-					  		</span>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12">
-						<h1>An inspector with <strong>integrity</strong></h1>
-					</div>
+			<h1><span>An inspector with integrity</span></h1>
+		</div>
+	</div>
+
+	<div class="container tower" id="overview">
+		<h2>Serving the Erie area for over 16 years</h2>
+		<p>
+		Buying a home is one of the single largest investments a person will make in their lifetime, and getting a home inspection is one of the best ways to help protect this investment. A pre-purchase home inspection is designed to highlight the positive aspects of the property as well as point out those features that may need attention.
+		</p>
+		<p>
+		During your inspection, I'll evaluate the property's current condition and estimate repairs and probable short-term expenses. At the end of the inspection, I'll hand you a thorough, hand-written report detailing everything that was found. Later on, I'll follow up with pictures and a summarized, typed report highlighting any notable deficiencies. 
+		</p>
+	</div>
+
+	<div class="report" id="report">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 content">
+					<h2>A comprehensive report</h2>
+					<p>
+						My report will detail both the positive and deficient aspects of the home's visible and accessible components. This includes:
+					</p>
+					<ul>
+						<li>structural condition and basement/crawl space</li>
+						<li>electrical, plumbing, hot water heater, heating and air conditioning</li>
+						<li>quality, condition and live expectancy of major systems</li>
+						<li>kitchen and appliances</li>
+						<li>general interior, including ceilings, walls, floors, windows, insulation and ventilation</li>
+						<li>general exterior, including roof, gutter, chimney, drainage and grading</li>
+						<li>estimates on repairs and probable expenses for the next three years</li>
+					</ul>
 				</div>
 			</div>
 		</div>
 	</div>
 
-	<div class="second">
+	<div class="services" id="services">
 		<div class="container">
-			<div class="row erie">
-				<div class="col-md-12 left-content">
-					<h2>Serving the Erie area for over 16 years</h2>
-					<p>
-					Buying a home is one of the single largest investments a person will make in their lifetime, and getting a home inspection is one of the best ways to help protect this investment. A pre-purchase home inspection is designed to highlight the positive aspects of the property as well as point out those features that may need attention.
-					</p>
-					<p>
-					During your inspection, I'll evaluate the property's current condition and estimate repairs and probable short-term expenses. At the end of the inspection, I'll hand you a thorough, hand-written report detailing everything that was found. Later on, I'll follow up with pictures and a summarized, typed report highlighting any notable deficiencies. 
-					</p>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="third">
-		<div class="container">
+			<h2 class="text-center">Services Offered</h2>
 			<div class="row">
-				<div class="col-md-12 left-content">
-					<div class="image-content">
-						<h2>A comprehensive report</h2>
-						<p>
-							My report will detail both the positive and deficient aspects of the home's visible and accessible components. This includes:
-						</p>
-						<ul>
-							<li>structural condition and basement/crawl space</li>
-							<li>electrical, plumbing, hot water heater, heating and air conditioning</li>
-							<li>quality, condition and live expectancy of major systems</li>
-							<li>kitchen and appliances</li>
-							<li>general interior, including ceilings, walls, floors, windows, insulation and ventilation</li>
-							<li>general exterior, including roof, gutter, chimney, drainage and grading</li>
-							<li>estimates on repairs and probable expenses for the next three years</li>
-						</ul>
+				<div class="col-sm-4 text-center">
+					<div class="service-wrapper">
+						<span class="glyphicon glyphicon-search"></span>
+						<h3>Home Inspection</h3>
+						<small class="invisible">.</small>
+					</div>
+				</div>
+				<div class="col-sm-4 text-center">
+					<div class="service-wrapper">
+						<span class="glyphicon glyphicon-tree-conifer"></span>
+						<h3>Pest Inspection</h3>
+						<small>through <a href="http://www.bigfootpestcontroloferie.com/">BigFoot Pest Control, Inc.</a></small>
+					</div>
+				</div>
+				<div class="col-sm-4 text-center">
+					<div class="service-wrapper">
+						<span class="glyphicon glyphicon-leaf"></span>
+						<h3>Radon Testing</h3>
+						<small>through Erie Radon Testing Services</small>
 					</div>
 				</div>
 			</div>
+			<p class="text-center">
+				<small>No fee is charged for scheduling additional services. Please note that radon testing may not be performed at the same time as the home inspection because of scheduling reasons.</small>
+			</p>
 		</div>
 	</div>
-	<div class="fourth">
-		<div class="container">
-			<div class="row pen">
-				<div class="col-md-12 left-content">
-					<h2>Services Offered</h2>
-					<ul class="services">
-						<li><span class="glyphicon glyphicon-check"></span>Home inspection</li>
-					</ul>
-					<p><em>Also available</em></p>
-					<ul class="services">
-						<li><span class="glyphicon glyphicon-check"></span>Radon testing through Erie Radon Testing Services</li>
-						<li><span class="glyphicon glyphicon-check"></span>Pest inspection through <a href="http://www.bigfootpestcontroloferie.com">BigFoot Pest Control, Inc.</a></li>
-					</ul>
-					<p>
-						No additional fee is charged for scheduling additional services. Please note that radon testing may not be performed at the same time as the home inspection because of scheduling reasons.
-					</p>
-				</div>
+
+	<div class="container about" id="about">
+		<div class="row">
+			<div class="col-sm-4 text-center">
+				<img src="images/john-circle.jpg" alt="John" />
 			</div>
-		</div>
-	</div>
-	<div class="fifth">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 left-content">
-					<h2>About Me</h2>
-					<p>
-					My name is John Platz, and I've been involved in the commercial and residential building maintenance and construction fields for over 35 years. During this time, I became an expert in understanding building codes and construction techniques and have developed a keen eye for identifying issues with homes.
-					</p>
-					<p>
-					Since 1997, I've performed over 3500 home inspections in and around the Erie, PA area, including Harborcreek, North East, Fairview, Girard, Springfield, McKean, Edinboro, and more. My goal, with every inspection I perform, is to work with your best interests in mind. I look forward to having the chance to be your home inspector.
-					</p>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="sixth">
-		<div class="container">
-			<div class="col-md-12">
-				<h2>Affiliations and Associations</h2>
+			<div class="col-sm-8">
+				<h2>About Me</h2>
+				<p>
+				My name is John Platz, and I've been involved in the commercial and residential building maintenance and construction fields for over 35 years. During this time, I became an expert in understanding building codes and construction techniques and have developed a keen eye for identifying issues with homes.
+				</p>
+				<p>
+				Since 1997, I've performed over 3500 home inspections in and around the Erie, PA area, including Harborcreek, North East, Fairview, Girard, Springfield, McKean, Edinboro, and more. My goal, with every inspection I perform, is to work with your best interests in mind. I look forward to having the chance to be your home inspector.
+				</p>
+				<h3>Affiliations and Associations</h3>
 				<p>I'm a member of the following associations:</p>
 				<ul>
 					<li><a href="http://www.nachi.org">International Association of Certified Home Inspectors (NACHI)</a></li>
 					<li>Educated by Home Tech</li>
 				</ul>
-				<div class="copyright text-center">
-					© 2014 John Platz Home Inspections All Rights Reserved
-				</div>
 			</div>
 		</div>
 	</div>
+
+	<div class="contact" id="contact">
+		<div class="container">
+			<h2 class="text-center">Contact</h2>
+			<div class="row">
+				<div class="col-sm-4 text-center">
+					<div class="service-wrapper">
+						<span class="glyphicon glyphicon-earphone"></span>
+						<h3>(814) 866-8636</h3>
+						office
+					</div>
+				</div>
+				<div class="col-sm-4 text-center">
+					<div class="service-wrapper">
+						<span class="glyphicon glyphicon-phone"></span>
+						<h3>(814) 882-2205</h3>
+						mobile
+					</div>
+				</div>
+				<div class="col-sm-4 text-center">
+					<div class="service-wrapper">
+						<span class="glyphicon glyphicon-envelope"></span>
+						<h3><a href="mailto:johnplatz@gmail.com">johnplatz@gmail.com</a></h3>
+						email
+					</div>
+				</div>
+			</div>
+			<div class="copyright text-center">
+				<small>© 2014 John Platz Home Inspections All Rights Reserved</small>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
 </body>
 </html>
